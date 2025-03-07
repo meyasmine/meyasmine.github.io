@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فوائد القهوة</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background: #3e2723;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .navbar h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        
+        .intro {
+            text-align: center;
+            padding: 50px;
+            background: #d7ccc8;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        
+        .intro h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .benefits {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .benefit {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transform: translateY(0);
+            opacity: 0;
+            animation: slideIn 1s forwards;
+            width: 30%;
+            text-align: center;
+        }
+
+        .benefit h3 {
+            color: #3e2723;
+            font-size: 24px;
+        }
+
+        .benefit p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #3e2723;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .benefit:nth-child(1) {
+            animation-delay: 2s;
+        }
+
+        .benefit:nth-child(2) {
+            animation-delay: 1s;
+        }
+
+        .benefit:nth-child(3) {
+            animation-delay: 0s;
+        }
+
+        .types-of-coffee {
+            text-align: center;
+            padding: 50px;
+            background: #d7ccc8;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .types-of-coffee h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .coffee-type-list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .coffee-type {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 22%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .coffee-type h3 {
+            font-size: 22px;
+            color: #3e2723;
+        }
+
+        .coffee-type p {
+            color: #555;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>فوائد القهوة</h1>
+        </div>
+    </header>
+    
+    <section class="intro">
+        <h2>ما هي فوائد القهوة؟</h2>
+        <p>القهوة ليست مجرد مشروب لذيذ، بل تحمل العديد من الفوائد الصحية.</p>
+    </section>
+
+    <section class="benefits">
+        <div class="benefit">
+            <h3>زيادة الطاقة</h3>
+            <p>القهوة تحتوي على الكافيين الذي يعمل كمحفز للجهاز العصبي المركزي. عند شرب القهوة، يتم امتصاص الكافيين بسرعة في الدم ويصل إلى الدماغ حيث يعزز من اليقظة والتركيز. يعتبر الكافيين واحدًا من أكثر المواد المنبهة استهلاكًا في العالم، ويعمل على تحفيز إفراز المواد الكيميائية في الدماغ التي تعزز المزاج والشعور بالتحفيز والطاقة. تشير الدراسات إلى أن شرب فنجان من القهوة في الصباح يمكن أن يساعد الأشخاص على بدء يومهم بمستوى أعلى من النشاط واليقظة.</p>
+        </div>
+        <div class="benefit">
+            <h3>تحسين التركيز</h3>
+            <p>بالإضافة إلى زيادة الطاقة، يعمل الكافيين الموجود في القهوة على تحسين التركيز والذاكرة قصيرة المدى. الدراسات العلمية أظهرت أن تناول القهوة يمكن أن يعزز من قدرة الشخص على التذكر والانتباه. يعزز الكافيين من تدفق الدم إلى الدماغ، مما يساعد في زيادة اليقظة والتفاعل العقلي. كما يمكن أن يعزز الذاكرة ويجعل الأشخاص أكثر قدرة على تذكر المعلومات بشكل أفضل عند أداء المهام اليومية أو أثناء الدراسة.</p>
+        </div>
+        <div class="benefit">
+            <h3>حماية من الأمراض</h3>
+            <p>تشير العديد من الدراسات إلى أن القهوة قد تقلل من خطر الإصابة ببعض الأمراض المزمنة. على سبيل المثال، أظهرت بعض الأبحاث أن القهوة قد تكون وقائية ضد مرض باركنسون، حيث تشير الدراسات إلى أن الأشخاص الذين يشربون القهوة بشكل منتظم يقل لديهم خطر الإصابة بهذا المرض العصبي. بالإضافة إلى ذلك، هناك أدلة تشير إلى أن القهوة يمكن أن تقلل من خطر الإصابة بمرض السكري من النوع الثاني. تعود هذه الفوائد إلى تأثيرات الكافيين ومضادات الأكسدة الموجودة في القهوة، التي قد تساعد في تحسين حساسية الأنسولين وتقليل الالتهابات في الجسم.</p>
+        </div>
+    </section>
+
+    <section class="types-of-coffee">
+        <h2>أنواع القهوة</h2>
+        <div class="coffee-type-list">
+            <div class="coffee-type">
+                <h3>إسبريسو</h3>
+                <p>الإسبريسو هو قهوة مركزة يتم تحضيرها باستخدام ضغط عالي للماء على حبوب القهوة المطحونة.</p>
+            </div>
+            <div class="coffee-type">
+                <h3>لاتيه</h3>
+                <p>لاتيه هو مزيج من الإسبريسو والحليب المبخر، ويتميز بمذاقه الناعم والدافئ.</p>
+            </div>
+            <div class="coffee-type">
+                <h3>كابتشينو</h3>
+                <p>الكابتشينو هو قهوة إيطالية تحتوي على الإسبريسو والحليب المبخر، مع طبقة سميكة من الرغوة.</p>
+            </div>
+            <div class="coffee-type">
+                <h3>موكا</h3>
+                <p>الموكا هو مزيج من القهوة والشوكولاتة مع الحليب المبخر، مما يعطيه طعماً غنياً وشهياً.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
